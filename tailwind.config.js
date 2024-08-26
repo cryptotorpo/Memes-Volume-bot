@@ -8,9 +8,11 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        "bg-header": "#8B7533",
+        "bg-header": "#191919",
         "bg-button": "#F2EBEB52",
-        "bg-active": "#4F4B3F"
+        "bg-active": "#4F4B3F",
+        "text-main": "#D42680",
+        "text-sub": "#423BC7"
       },
       fontFamily: {
         'caveat': ['Caveat Brush', 'cursive'], // Add 'cursive' as a fallback
@@ -18,7 +20,7 @@ module.exports = {
       },
       backgroundImage: {
         'bot-pattern': "url('\img/bot-bg.png')",
-        'button-gradient': 'linear-gradient(170.24deg, #F5B30D 18.16%, #8F6808 110.68%)',
+        'button-gradient': "linear-gradient(94.71deg, #D42680 6.64%, #423BC7 107.65%)",
       }
     },
   },
